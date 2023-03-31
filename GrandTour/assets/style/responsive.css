@@ -1,0 +1,38 @@
+@media screen and (max-width: 767px) {
+    .header_nav nav{
+        display: none;
+    }
+    form{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .search, .select, #searchBtn{
+        width: 100%;
+    }
+    .tips_cards{
+        grid-template-columns: repeat(auto-fit, minmax(261px, 1fr));
+    }
+    footer{
+        height: auto;
+    }
+    .footer_top_cards{
+        grid-template-columns: repeat(auto-fill, minmax(258px, 1fr));
+    }
+    .article_cards {
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    }
+    .article_card_text p {
+        font-size: 11px;
+    }
+    .article_card_text h3 {
+        font-size: 15px;
+    }
+    .article_card_text {
+        padding: 21px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width:1024px) {
+    .header_nav nav ul, .header_nav{
+        gap: 10px;
+    }
+}
